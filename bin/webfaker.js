@@ -32,6 +32,6 @@ Webfaker.start({
   fakes: argv.fakes
 }, function() {
   var port = argv.port;
-  console.log( "Started Webfaker services on http://localhost ports: node-hubble=%s, MakeAPI=%s, Login=%s",
+  console.log( "Started Webfaker services on http://localhost ports: FakeAPI=%s, Fogin=%s, Fubble=%s",
                port, port + 1, port + 2 );
 });

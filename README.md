@@ -23,10 +23,10 @@ Invoking via command-line
 ```
 $ webmaker
 ...
-Started Webfaker services on http://localhost ports: node-hubble=10000, MakeAPI=10001, Login=10002
+Started Webfaker services on http://localhost ports: FakeAPI=10000, Fogin=10001, Fubble=10002
 ```
 
-This will start all 3 servers on ports 10000, 10001, and 10002. You can use another series of ports by specifing
+This will start all 3 servers on ports 10000 (MakeAPI), 10001 (Login), and 10002 (Hubble). You can use another series of ports by specifing
 a port in the command line.  Other optional command line arguments include:
 
 ```

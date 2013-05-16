@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git://github.com/mozilla/webfaker.git"
   },
-  "author": "Webmaker Product Team <webmaker-staff@mozillafoundation.org>",
+  "author": "David Humphrey <david.humphrey@senecacollege.ca>",
   "license": "MPL-2.0",
   "dependencies": {
     "express": "3.2.0",

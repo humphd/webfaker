@@ -15,8 +15,8 @@ module.exports = {
     options = options || defaults;
     callback = callback || function(){};
 
-    // Start Fubble on port + 2 since we'll start FakeAPI on port
-    // and Fogin on port + 1;
+    // Given port=5000, start Fubble on 5002 (port + 2) since we'll
+    // start FakeAPI on port 5000 and Fogin on 5001 (port + 1);
     Fubble.start({ port: options.port + 2 }, function() {
       FakeAPI.start( options, callback );
     });
