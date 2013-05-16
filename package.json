@@ -1,0 +1,30 @@
+{
+  "name": "webfaker",
+  "version": "0.0.1",
+  "description": "Fake implementations of your favourite Webmaker servers and APIs",
+  "main": "index.js",
+  "bin": "./bin/webfaker.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/webfaker.git"
+  },
+  "author": "Webmaker Product Team <webmaker-staff@mozillafoundation.org>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "3.2.0",
+    "makeapi": "0.1.2",
+    "optimist": "0.4.0",
+    "webmaker-loginapi": "0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3"
+  },
+  "engines": {
+    "node": ">=0.8.23",
+    "npm": ">=1.2.10"
+  }
+}
