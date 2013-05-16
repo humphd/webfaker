@@ -56,4 +56,8 @@ Webfaker.start({
   console.log( "Started Webfaker services on http://localhost ports: node-hubble=%s, MakeAPI=%s, Login=%s",
                port, port + 1, port + 2 );
 });
+
+// do some things...
+
+Webfaker.stop();
 ```
