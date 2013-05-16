@@ -33,5 +33,5 @@ Webfaker.start({
 }, function() {
   var port = argv.port;
   console.log( "Started Webfaker services on http://localhost ports: node-hubble=%s, MakeAPI=%s, Login=%s",
-               port, port + 1, port + 1 );
+               port, port + 1, port + 2 );
 });
