@@ -22,8 +22,11 @@ module.exports = {
     });
   },
 
-  stop: function() {
-    FakeAPI.stop();
+  stop: function( callback ) {
+    callback = callback || function(){};
+    FakeAPI.stop( function() {
+      Fubble.stop( callback );
+    });
   }
 
 };
