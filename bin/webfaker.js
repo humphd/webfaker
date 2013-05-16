@@ -34,4 +34,8 @@ Webfaker.start({
   var port = argv.port;
   console.log( "Started Webfaker services on http://localhost ports: FakeAPI=%s, Fogin=%s, Fubble=%s",
                port, port + 1, port + 2 );
+
+  process.on( "exit", function() {
+    Webfaker.stop();
+  });
 });
