@@ -6,7 +6,7 @@ Webfaker
 Fake implementations of all your favourite Webmaker servers and APIs, including:
 
 * [FakeAPI](https://github.com/mozilla/makeapi) - the MakeAPI
-* [Fogin](https://github.com/mozilla/login.webmaker.org) login.webmaker.org
+* [Fogin](https://github.com/mozilla/login.webmaker.org) - login.webmaker.org
 * [Fubble](https://github.com/mozilla/node-hubble) - node-hubble
 
 Webfaker is meant to aid in developing Webmaker code that depends on any/all of these services.
