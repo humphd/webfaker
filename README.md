@@ -21,7 +21,7 @@ $ npm install -g webfaker
 Invoking via command-line
 -------------------------
 ```
-$ webmaker
+$ webfaker
 ...
 Started Webfaker services on http://localhost ports: FakeAPI=10000, Fogin=10001, Fubble=10002
 ```
@@ -30,7 +30,7 @@ This will start all 3 servers on ports 10000 (MakeAPI), 10001 (Login), and 10002
 a port in the command line.  Other optional command line arguments include:
 
 ```
-$ webmaker --port 5000 --fakes 1000 --username someone --password supersecret
+$ webfaker --port 5000 --fakes 1000 --username someone --password supersecret
 ```
 
 * `port` - the first of 3 ports to use for the servers
@@ -53,7 +53,7 @@ Webfaker.start({
   password: "password",
   fakes: 500
 }, function() {
-  console.log( "Started Webfaker services on http://localhost ports: node-hubble=%s, MakeAPI=%s, Login=%s",
+  console.log( "Started Webfaker services on http://localhost ports: FakeAPI=%s, Fogin=%s, Fubble=%s",
                port, port + 1, port + 2 );
 });
 
