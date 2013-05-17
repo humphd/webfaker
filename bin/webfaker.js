@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Webfaker = require( '../' ),
     argv = require( 'optimist' )
     .usage( 'Start fake Webmaker servers and APIs locally.\nUsage: $0')
