@@ -1,5 +1,5 @@
-var FakeAPI = require( "makeapi" ).fakeAPI,
-    Fubble = require( "./lib/" );
+var FakeAPI = require( "./lib/fakeapi" ),
+    Fubble = require( "./lib/fubble" );
 
 module.exports = {
 
@@ -9,7 +9,13 @@ module.exports = {
       username: "webfaker",
       password: "secret",
       port: 10000,
-      fakes: 50
+      fakes: 50,
+      logins: [{
+       email: "admin@webfaker.org",
+       subdomain: "admin",
+       fullName: "An Admin",
+       isAdmin: true
+      }]
     };
 
     options = options || defaults;
