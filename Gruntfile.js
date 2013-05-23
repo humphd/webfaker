@@ -3,6 +3,10 @@ module.exports = function( grunt ) {
     pkg: grunt.file.readJSON( "package.json" ),
 
     jshint: {
+      options: {
+        es5: true,
+        newcap: false
+      },
       files: [
         "package.json",
         "Gruntfile.js",

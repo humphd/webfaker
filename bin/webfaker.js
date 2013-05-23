@@ -48,7 +48,7 @@ Webfaker.start({
     fullName: "Webfaker Admin",
     isAdmin: true
   }],
-  isAdminCheck: admincheck
+  isAdminCheck: argv.admincheck
 }, function() {
   var port = argv.port;
   console.log( "Started Webfaker services on http://localhost ports: FakeAPI=%s, Fogin=%s, Fubble=%s with email `%s'",
