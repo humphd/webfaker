@@ -1,6 +1,6 @@
 {
   "name": "webfaker",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fake implementations of your favourite Webmaker servers and APIs",
   "main": "index.js",
   "bin": "./bin/webfaker.js",
